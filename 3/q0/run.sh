@@ -1,4 +1,4 @@
 #!/bin/bash
-g++ solution.cpp test.cpp main.o
+g++ solution.cpp test.o ../main.o
 ./a.out
 rm a.out
