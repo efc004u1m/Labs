@@ -4,7 +4,7 @@ using namespace std;
 
 #define MAX 5
 char* string_with_max_vowels(char strings[][MAX], int num) {
-	int maxCount = 0;
+	int maxCount = -1;
 	char* res;
 	for (int i = 0; i < num; ++i) {
 		int vowelCount = 0;
