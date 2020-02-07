@@ -3,7 +3,7 @@
 using namespace std;
 
 char* string_with_max_vowels(char* strings[], int num) {
-	int maxCount = 0;
+	int maxCount = -1;
 	char* res;
 	for (int i = 0; i < num; ++i) {
 		int vowelCount = 0;
