@@ -17,10 +17,7 @@ int main () {
 	
     int entry[3] = {3, 2, 1};
     char* names[3] = {"aaa", "abb", "ccc"};
-    /*
-    int entry[3] = {3, 1, 2};
-    char* names[3] = {"sahil", "akshit", "pratik"};
-    */
+    
     sort_names(entry, names, 3);
 
     for (int i = 0; i < 3; ++i) {
