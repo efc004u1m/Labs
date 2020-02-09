@@ -16,8 +16,8 @@ void myswap2(int& a, int& b) {
 }
 
 void sort_names_true(int entry[], char* names[], int num) {
-    for (int i = 0; i < num; ++i) {
-        for (int j = 0; j < i; ++j) {
+    for (int i = 0; i < num - 1; ++i) {
+        for (int j = 0; j < num - 1; ++j) {
             if (entry[j] > entry[j + 1]) {
                 myswap2(entry[j], entry[j + 1]);
                 myswap(names[j], names[j + 1]);

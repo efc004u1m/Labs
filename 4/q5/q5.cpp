@@ -2,8 +2,8 @@
 using namespace std;
 
 void sort_names(int entry[], char* names[], int num) {
-    for (int i = 0; i < num; ++i) {
-        for (int j = 0; j < i; ++j) {
+    for (int i = 0; i < num - 1; ++i) {
+        for (int j = 0; j < num - 1; ++j) {
             if (entry[j] > entry[j + 1]) {
                 swap(entry[j], entry[j + 1]);
                 swap(names[j], names[j + 1]);
@@ -15,9 +15,12 @@ void sort_names(int entry[], char* names[], int num) {
 /*
 int main () {
 	
+    int entry[3] = {3, 2, 1};
+    char* names[3] = {"aaa", "abb", "ccc"};
+    /*
     int entry[3] = {3, 1, 2};
     char* names[3] = {"sahil", "akshit", "pratik"};
-
+    */
     sort_names(entry, names, 3);
 
     for (int i = 0; i < 3; ++i) {
