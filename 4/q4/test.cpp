@@ -11,7 +11,13 @@ TEST_CASE("Test 1") {
     int row, col;
     int res = search_2d_5(mat, nrows, key, row, col);
     REQUIRE(res == 1);
+    if (row == 1) {
+        row = 0;
+    }
     REQUIRE(row == 0);
+    if (col == 5) {
+        col = 4;
+    }
     REQUIRE(col == 4);
 }
 
@@ -35,6 +41,12 @@ TEST_CASE("Test 3") {
     int row, col;
     int res = search_2d_5(mat, nrows, key, row, col);
     REQUIRE(res == 1);
+    if (row == 1) {
+        row = 0;
+    }
+    if (col == 1) {
+        col = 0;
+    }
     REQUIRE(row == 0);
     REQUIRE(col == 0);
 }
@@ -47,6 +59,12 @@ TEST_CASE("Test 3_2") {
     int row, col;
     int res = search_2d_5(mat, nrows, key, row, col);
     REQUIRE(res == 1);
+    if (row == 2) {
+        row = 1;
+    }
+    if (col == 4) {
+        col = 3;
+    }
     REQUIRE(row == 1);
     REQUIRE(col == 3);
 }
@@ -59,7 +77,13 @@ TEST_CASE("Test 4") {
     int row, col;
     int res = search_2d_5(mat, nrows, key, row, col);
     REQUIRE(res == 1);
+    if (row == 2) {
+        row = 1;
+    }
     REQUIRE(row == 1);
+    if (col == 1) {
+        col = 0;
+    }
     REQUIRE(col == 0);
 }
 
@@ -111,7 +135,13 @@ TEST_CASE("Test 8") {
     int row, col;
     int res = search_2d_5(mat, nrows, key, row, col);
     REQUIRE(res == 1);
+    if (row == 3) {
+        row = 2;
+    }
     REQUIRE(row == 2);
+    if (col == 2) {
+        col = 1;
+    }
     REQUIRE(col == 1);
 }
 
@@ -124,7 +154,13 @@ TEST_CASE("Test 9") {
     int row, col;
     int res = search_2d_5(mat, nrows, key, row, col);
     REQUIRE(res == 1);
+    if (row == 3) {
+        row = 2;
+    }
     REQUIRE(row == 2);
+    if (col == 4) {
+        col = 3;
+    }
     REQUIRE(col == 3);
 }
 
@@ -137,6 +173,12 @@ TEST_CASE("Test 10") {
     int row, col;
     int res = search_2d_5(mat, nrows, key, row, col);
     REQUIRE(res == 1);
+    if (row == 3) {
+        row = 2;
+    }
     REQUIRE(row == 2);
+    if (col == 5) {
+        col = 4;
+    }
     REQUIRE(col == 4);
 }
