@@ -1,0 +1,10 @@
+4 vtaurovgx ozpexgy 13856
+getId
+getFirstName
+getLastName
+getName
+getSalary
+setSalary 14080
+getSalary
+getAnnualSalary
+raiseSalary 8

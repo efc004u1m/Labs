@@ -1,0 +1,10 @@
+7 hyjtfsmrn tmhusilmfn 14120
+getId
+getFirstName
+getLastName
+getName
+getSalary
+setSalary 12631
+getSalary
+getAnnualSalary
+raiseSalary 2

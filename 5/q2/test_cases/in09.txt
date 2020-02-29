@@ -1,0 +1,10 @@
+8 zli sgkggmkt 10394
+getId
+getFirstName
+getLastName
+getName
+getSalary
+setSalary 13504
+getSalary
+getAnnualSalary
+raiseSalary 1

@@ -1,0 +1,10 @@
+8 vishtvncrs nwteoyl 13069
+getId
+getFirstName
+getLastName
+getName
+getSalary
+setSalary 17626
+getSalary
+getAnnualSalary
+raiseSalary 3

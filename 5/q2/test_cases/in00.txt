@@ -1,0 +1,10 @@
+3 vfgtm fhlwt 15959
+getId
+getFirstName
+getLastName
+getName
+getSalary
+setSalary 13987
+getSalary
+getAnnualSalary
+raiseSalary 2

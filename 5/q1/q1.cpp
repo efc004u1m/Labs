@@ -9,7 +9,7 @@ struct Student {
 };
 
 string minAge(Student s[], int n) {
-    int minAge = INT_MAX;
+    int minAge = 200;
     int idx = -1;
     for (int i = 0; i < n; ++i) {
         if (s[i].age < minAge) {

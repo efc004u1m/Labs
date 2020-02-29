@@ -1,0 +1,10 @@
+3 zlashvtlm egqtmlihzl 14798
+getId
+getFirstName
+getLastName
+getName
+getSalary
+setSalary 11121
+getSalary
+getAnnualSalary
+raiseSalary 7

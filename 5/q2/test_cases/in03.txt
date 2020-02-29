@@ -1,0 +1,10 @@
+7 inilnlhou rnwnwlh 10042
+getId
+getFirstName
+getLastName
+getName
+getSalary
+setSalary 13337
+getSalary
+getAnnualSalary
+raiseSalary 6

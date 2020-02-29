@@ -1,0 +1,10 @@
+7 csm blez 10106
+getId
+getFirstName
+getLastName
+getName
+getSalary
+setSalary 11505
+getSalary
+getAnnualSalary
+raiseSalary 10

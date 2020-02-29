@@ -1,0 +1,10 @@
+6 j i 17940
+getId
+getFirstName
+getLastName
+getName
+getSalary
+setSalary 10032
+getSalary
+getAnnualSalary
+raiseSalary 10

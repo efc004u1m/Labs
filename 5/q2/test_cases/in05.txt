@@ -1,0 +1,10 @@
+3 sbnamufp pygyvbwt 18857
+getId
+getFirstName
+getLastName
+getName
+getSalary
+setSalary 14077
+getSalary
+getAnnualSalary
+raiseSalary 6
